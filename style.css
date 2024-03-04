@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+    font-family: Oswald; 
+    color: black;
+    background-image: url("Imagenes/Body.jpg");
+    background-size: 200px;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(170, 97, 49);
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 120px;
+    margin-right: 50px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.border{
+    color: blanchedalmond;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:peru;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+  }
+
+  .tallerimg{
+    width: 40%;
+  }
+
+  .border2{
+    color: blanchedalmond;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:sienna;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+  }
+
+  .border3{
+    color: blanchedalmond;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:saddlebrown;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+  }
+
+
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-item img {
+    width: 200px; /* Puedes ajustar el tamaño según tus necesidades */
+    height: auto;
+    box-shadow: 5px 5px 5px #888888; /* Sombreado */
+    transition: transform 0.3s ease; /* Transición al hacer hover */
+}
+
+.image-item img:hover {
+    transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+
+.image-item p {
+    margin-top: 10px;
+}
+
+footer{
+    background-color: rgb(170, 97, 49);
+	color: blanchedalmond;
+	font-family: Verdana;
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+.contenido-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
